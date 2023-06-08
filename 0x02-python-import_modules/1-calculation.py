@@ -5,7 +5,7 @@ if __name__ == '__main__':
     """
 
     The result of the addition, substract,division
-    and  multiplication between two numbers a and b
+    and multiplication between two numbers a and b
 
     """
     a = 10
