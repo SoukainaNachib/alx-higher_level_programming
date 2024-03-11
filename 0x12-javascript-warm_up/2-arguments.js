@@ -1,6 +1,9 @@
 #!/usr/bin/node
 
-// Use console.log(...) to print all output
-console.log('C is fun');
-console.log('Python is cool');
-console.log('JavaScript is amazing');
+// Prints a message depending of the number of arguments passed
+
+if (process.argv.length === 2) {
+  console.log('No argument');
+} else {
+  console.log('Argument found');
+}
